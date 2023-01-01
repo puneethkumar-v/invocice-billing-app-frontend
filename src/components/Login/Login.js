@@ -34,8 +34,7 @@ const Login = () => {
   const classes = useStyles();
   const [formData, setFormData] = useState(initialState);
   const [isSignup, setIsSignup] = useState(false);
-  const dispatch = useDispatch();
-  const history = useHistory();
+
   const [showPassword, setShowPassword] = useState(false);
   // eslint-disable-next-line
   const [openSnackbar, closeSnackbar] = useSnackbar();
